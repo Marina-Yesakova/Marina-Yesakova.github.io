@@ -16,7 +16,7 @@
 	animation-name: fadeIn;
 	animation-duration:5s;
 	animation-iteration-count:1;
-	animation-delay:1;	
+	animation-delay:0.5s;	
 }
 
 ul#slider{
@@ -121,10 +121,7 @@ body.contactPage article{
 	
 }
 
-fieldset {
-	background-color:rgb(220,160,220);
-	padding:1.5em, 2em;	
- }
+
  legend{
 	 font:16px Verdana, Tahoma, sans-serif; 
 	 background-color:rgb(160, 220, 160);
@@ -263,7 +260,7 @@ ul {
 
 /*------------------------------END Styles for menu--------------------------*/
 
-}
+
 #mainContentIndex{
     vertical-align: middle;
 	width: 800px;
