@@ -121,7 +121,6 @@ body.contactPage article{
 	
 }
 
-
  legend{
 	 font:16px Verdana, Tahoma, sans-serif; 
 	 background-color:rgb(160, 220, 160);
@@ -147,7 +146,7 @@ input.button {
 }
 input.button:hover{
 	background-color:rgb(160, 220, 160);
-	border-bottom:3px, solid #FF3D7F;
+	border-bottom:3px solid #FF3D7F;
 	transition:all .5s;
 }
 
