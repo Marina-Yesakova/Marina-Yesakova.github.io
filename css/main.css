@@ -261,11 +261,10 @@ ul {
   transform: scaleY(1);
 }
 
-   
-
 /*------------------------------END Styles for menu--------------------------*/
 
-#mainContent{
+}
+#mainContentIndex{
     vertical-align: middle;
 	width: 800px;
     height: 550px;
@@ -642,17 +641,20 @@ background: linear-gradient(top,  rgba(234,234,234,1) 0%,rgba(242,242,242,1) 100
 	50%{opacity: .5;}
 	100%{opacity: 1;}
 } 
-
+#photos{
+    width: 600px;
+    margin: 5px 320px;
+}
 #gallery {
 	text-align:left;
 	width:700px;
-	margin:30px auto 0 auto;
+	margin:30px 0 0 0;
 	background: #000;
 	overflow:hidden;
-	border: 10px solid #000;
+	border: 15px solid #000;
 	box-shadow: #131313 0px 2px 10px;
 	animation-name: fadeIn;
-	animation-duration:5s;
+	animation-duration:2s;
 	animation-iteration-count:1;
 	animation-delay:1;	
 }
@@ -670,12 +672,13 @@ ul#slider{
 
 ul#thumbs {
 	overflow:auto;
+    width: 650px;
 	margin:0;
 	padding:0;
 	list-style-type:none;
 	position:relative;
 	background:#000;
-	width:700px;	
+	
 }
 ul#thumbs a {
 	transition: opacity .2s ease-in-out;
@@ -683,7 +686,7 @@ ul#thumbs a {
 	width:35px;
 	height: 35px;
 	display:block;
-	float:right;
+	float:left;
 	margin:10px 0 0 10px;
 	opacity:.75; 
 	overflow:hidden;	
