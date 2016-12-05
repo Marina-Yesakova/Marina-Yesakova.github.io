@@ -173,7 +173,8 @@ header {
 
 nav {
   display: table;
-  margin: 0 auto;
+    width: 100%;
+
   background-color:  #EAECE4;
 }
 .head {
@@ -195,30 +196,39 @@ ul {
      
 }
 .menu > li {
-  width: 11%;
+  width: 20%;
   float: left;
-  vertical-align: middle;
+  
   position: relative;
   font-family: 'Open Sans', sans-serif;
 }
+.menu > li > .logo{
+      display: flex;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #D5B45B;
+  padding: 8px 70px;
+
+    font-family:'Century Gothic', 'Playfair Display', serif;
+    font-weight:bold;
+}
 .menu > li > a {
     
-  display: flex;
+  display: block;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: bold;
   color: #504040;
-  padding: 8px 50px;
-    align-content: center;
-
-
+  padding: 15px 70px;
+  
 }
+
+
 .menu > li:hover > a, .submenu li:hover a {
   color: #D5B45B;
 }
 
 .submenu {
-  background: #273037;
+  background: #EAECE4;
   position: absolute;
   left: 0;
   top: 100%;
@@ -238,7 +248,7 @@ ul {
   transform-origin:0 0;
 }
 .submenu a {
-  color: white;
+  color: #504040;
   text-align: left;
   display: block;
   padding: 12px 15px;
@@ -282,7 +292,7 @@ ul {
 #aboutMe{
 	width:300px;
 	float: left;
-    margin: 150px 65px ; 
+    margin: 150px 80px ; 
     display:flex;
     font-family: 'Satisfy', cursive;
     color: #808080;
@@ -345,7 +355,7 @@ background:#3F3F3F;
 h1 {
 font-family: 'Questrial', Verdana, sans-serif;
 text-align:center;
-font-size:40px;
+font-size:30px;
 padding:0;
 margin:0 0 20px 0;
 position:relative;
@@ -356,7 +366,7 @@ color:#8C8C8C;
 h1:after {
 font-size:25px;
 color:#D6CFCB;
-content: '&'; 
+content: '\2665'; 
 text-align:center;
 display:block;
 width:100%;
@@ -752,3 +762,32 @@ ul#slider li:not(:target){
 
 /*------------------------------End Styles for gallery--------------------------*/
 
+#myText {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: normal;
+    display: block;
+align-content:  center;
+    text-align: left;
+  width: 600px;
+  margin: 0 auto;
+}
+a:link {
+    color: #504040;
+}
+
+/* visited link */
+a:visited {
+    color: #504040;
+}
+
+/* mouse over link */
+a:hover {
+    color: #D5B45B;
+}
+
+/* selected link */
+a:active {
+    color: #D5B45B;
+}
