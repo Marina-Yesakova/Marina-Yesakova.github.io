@@ -791,3 +791,14 @@ a:hover {
 a:active {
     color: #D5B45B;
 }
+ article{
+         font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+     text-align: justify;
+     text-overflow: ellipsis;
+   
+	width:100%;
+	
+}
