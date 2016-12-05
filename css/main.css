@@ -649,7 +649,7 @@ background: linear-gradient(to bottom,  rgba(234,234,234,1) 0%,rgba(242,242,242,
 } 
 #photos{
     width: 600px;
-    margin: 5px 320px;
+    margin: auto;
 }
 #gallery {
 	text-align:left;
