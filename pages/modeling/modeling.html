@@ -1,131 +1,80 @@
 <!doctype html>
-
 <html>
-
 <head>
-<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-<meta charset = "UTF-8">
-<title>Modeling </title>
-<link rel = "stylesheet" type = "text/css" href = "../../css/main.css">
-    <style>
+	<base href="../..">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/include-page.js"></script>
+	<meta charset="UTF-8">
+	<title>Modeling</title>
+<style>
 div.img {
-    border: 1px solid #ccc;
+border: 1px solid #ccc;
 }
-
 div.img:hover {
-    border: 1px solid #777;
+border: 1px solid #777;
 }
-
 div.img img {
-    width: 100%;
-    height: auto;
+width: 100%;
+height: auto;
 }
-
 div.desc {
-    padding: 15px;
-    text-align: center;
+padding: 15px;
+text-align: center;
 }
-
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
-
 .responsive {
-    padding: 80px 6px;
-    float: left;
-    width: 24.99999%;
+padding: 80px 6px;
+float: left;
+width: 24.99999%;
 }
-
 @media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+.responsive {
+width: 49.99999%;
+margin: 6px 0;
 }
-
+}
 @media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
+.responsive {
+width: 100%;
 }
-
+}
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+content: "";
+display: table;
+clear: both;
 }
 </style>
 </head>
-<body>
-<nav class= "head" >
-	<a> Inspired by YOU</a>
-</nav>
-     <header class="main">
-  <nav>
-      <ul class="menu">
-        <li><a href="../../index.html">HOME</a></li>
-		
-        <li><a href="../photography/photography.html" class="submenu-link">PHOTOGRAPHY</a>
-          <ul class="submenu">
-            <li><a href="../photography/events.html">Events</a></li>
-            <li><a href="../photography/flowers.html">Flowers</a></li>
-            <li><a href="../photography/streets.html">Street Style</a></li>
-            <li><a href="../photography/landscapes.html">Landscapes</a></li>
-          </ul>
-        </li>
-		
-		
-        <li><a href="../about.html" class="logo">Marina Yesakova</a></li>
-		
-		<li><a href="modeling.html" class="submenu-link">MODELING</a>
-		<ul class="submenu">
-            <li><a href="how-i-became-a-model.html">How I became a model</a></li>
-            <li><a href="published-work.html">Published work</a></li>
-            <li><a href="photoshoots.html">Photoshoots</a></li>
-          </ul>
-		</li>
-       
-        <li><a href="../contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-</header>
-     <h1>Modeling</h1>
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="how-i-became-a-model.html">
-      <img src="../../images/modeling/13.jpg" alt="modeling" width="600" height="400">
-   
-    <div class="desc">How I became a model</div> </a>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="published-work.html">
-      <img src="../../images/modeling/12.jpg" alt="modeling" width="600" height="400">
-    
-    <div class="desc">Published work</div></a>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="photoshoots.html">
-      <img src="../../images/modeling/1.jpg" alt="modeling" width="600" height="400">
-    
-    <div class="desc">Photoshoots</div></a>
-  </div>
-</div>
-
- 
-
-<div style="padding:6px;"></div>
-<footer>
-<div id = "copy">
-&copy;2016 Marina Yesakova
-</div>
-</footer>
-</body>
+	<body>
+		<div data-include="header_menu.html"></div>
+		<h1>Modeling</h1>
+		<div class="responsive">
+			<div class="img">
+				<a href="pages/modeling/how-i-became-a-model.html">
+				<img src="images/modeling/13.jpg" alt="modeling" width="600" height="400">
+				<div class="desc">How I became a model</div> </a>
+			</div>
+		</div>
+		<div class="responsive">
+			<div class="img">
+				<a href="pages/modeling/published-work.html">
+				<img src="images/modeling/12.jpg" alt="modeling" width="600" height="400">
+				<div class="desc">Published work</div></a>
+			</div>
+		</div>
+		<div class="responsive">
+			<div class="img">
+				<a href="pages/modeling/photoshoots.html">
+					<img src="images/modeling/1.jpg" alt="modeling" width="600" height="400">
+				<div class="desc">Photoshoots</div></a>
+			</div>
+		</div>
+		<div style="padding:6px;"></div>
+		<div data-include="footer.html"></div>
+	</body>
 </html>

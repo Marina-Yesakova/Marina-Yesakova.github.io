@@ -1,122 +1,74 @@
 <!doctype html>
-
 <html>
-
-<head>
-<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-<meta charset = "UTF-8">
-<title>Blog </title>
-<link rel = "stylesheet" type = "text/css" href = "../../css/main.css">
-    <style>
+	<head>
+		<base href="../..">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script type="text/javascript" src="js/include-page.js"></script>
+		<meta charset="UTF-8">
+		<title>Blog</title>
+		<style>
 div.img {
-    border: 1px solid #ccc;
+	border: 1px solid #ccc;
 }
-
 div.img:hover {
-    border: 1px solid #777;
+	border: 1px solid #777;
 }
-
 div.img img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
-
 div.desc {
-    padding: 15px;
-    text-align: center;
+	padding: 15px;
+	text-align: center;
 }
-
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 .responsive {
-    padding: 150px 6px;
-    float: left;
-    width: 24.99999%;
+	padding: 150px 6px;
+	float: left;
+	width: 24.99999%;
 }
-
 @media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
 }
-
 @media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
+	.responsive {
+		width: 100%;
+	}
 }
-
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
-</style>
-</head>
-<body>
-<nav class= "head" >
-	<a> Inspired by YOU</a>
-</nav>
-   <header class="main">
-  <nav>
-      <ul class="menu">
-        <li><a href="../../index.html">HOME</a></li>
-		
-        <li><a href="../photography/photography.html" class="submenu-link">PHOTOGRAPHY</a>
-          <ul class="submenu">
-            <li><a href="../photography/events.html">Events</a></li>
-            <li><a href="../photography/flowers.html">Flowers</a></li>
-            <li><a href="../photography/streets.html">Street Style</a></li>
-            <li><a href="../photography/landscapes.html">Landscapes</a></li>
-          </ul>
-        </li>
-		
-		
-        <li><a href="../about.html" class="logo">Marina Yesakova</a></li>
-		
-		<li><a href="../modeling/modeling.html" class="submenu-link">MODELING</a>
-		<ul class="submenu">
-            <li><a href="../modeling/how-i-became-a-model.html">How I became a model</a></li>
-            <li><a href="../modeling/published-work.html">Published work</a></li>
-            <li><a href="../modeling/photoshoots.html">Photoshoots</a></li>
-          </ul>
-		</li>
-       
-        <li><a href="../contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-</header>
-   
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Move-to-the-USA.html">
-      <img src="../../images/photography/events/1.jpg" alt="Events" width="300" height="200">
-    </a>
-    <div class="desc">Move to the USA</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="flowers.html">
-      <img src="../../images/photography/flowers/1.jpg" alt="Flowers" width="600" height="400">
-    </a>
-    <div class="desc">Flowers</div>
-  </div>
-</div>
-
-
-
-<div style="padding:6px;"></div>
-<footer>
-<div id = "copy">
-&copy;2016 Marina Yesakova
-</div>
-</footer>
-</body>
+		</style>
+	</head>
+	<body>
+		<div data-include="header_menu.html"></div>
+		<div class="responsive">
+			<div class="img">
+				<a href="pages/blog/Move-to-the-USA.html">
+					<img src="../../images/photography/events/1.jpg" alt="Events" width="300" height="200">
+				</a>
+				<div class="desc">Move to the USA</div>
+			</div>
+		</div>
+		<div class="responsive">
+			<div class="img">
+				<a href="pages/blog/flowers.html">
+					<img src="../../images/photography/flowers/1.jpg" alt="Flowers" width="600" height="400">
+				</a>
+				<div class="desc">Flowers</div>
+			</div>
+		</div>
+		<div style="padding:6px;"></div>
+		<div data-include="footer.html"></div>
+	</body>
 </html>
