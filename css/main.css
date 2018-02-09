@@ -134,7 +134,7 @@ ul {
 }
 
 #aboutMe{
-	width:300px;
+	max-width:300px;
 	float: left;
     margin: 150px 80px ;
     display:flex;
