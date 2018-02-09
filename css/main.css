@@ -123,14 +123,13 @@ ul {
     margin: 10px 20px ;
 }
 
-#about{
+#aboutMePic{
     vertical-align: middle;
-	width: 380px;
-    height: 550px;
+	width: 33%;
+	max-width: 380px;
+    max-height: 550px;
     display: flex;
-    float: none;
-    background: #ffffff;
-    margin: 10px 200px ;
+    float: left;
 }
 
 #aboutMe{
@@ -142,15 +141,15 @@ ul {
     color: #808080;
     text-align: center;
     font-style: italic;
-    font-size: 22px;
+	font-size: 22px;
 }
 
-#aboutMeA{
-	width:300px;
-	float: right;
-    margin: 150px 65px ;
+.aboutMeText{
+	width: 33%;
+	float: left;
+    padding: 100px 30px ;
     display:flex;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy';
     color: #808080;
     text-align: center;
     font-style: italic;
